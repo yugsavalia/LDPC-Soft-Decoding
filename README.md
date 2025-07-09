@@ -1,8 +1,14 @@
 # LDPC Codes in 5G NR Implementation in MATLAB
+This repository provides a comprehensive implementation of Low Density Parity Check (LDPC) codes for 5G New Radio (NR) in MATLAB. It encompasses the entire transmission chain, from base graph expansion and signal generation through modulation, channel modeling, and soft-decision decoding. The project demonstrates the performance of various decoding algorithms under different channel conditions.
 
 ## Description
+LDPC codes are used for data channel coding in 5G systems.
+LDPC codes are a class of linear block codes known for their excellent
+error-correcting capabilities and near-capacity performance. They have a sparse parity-check
+matrix (a matrix mostly filled with zeros) which allows for efficient decoding using
+iterative algorithms like belief propagation(Soft decision decoding).
 
-This repository provides a comprehensive implementation of Low Density Parity Check (LDPC) codes for 5G New Radio (NR) in MATLAB. It encompasses the entire transmission chain, from base graph expansion and signal generation through modulation, channel modeling, and soft-decision decoding. The project demonstrates the performance of various decoding algorithms under different channel conditions.
+
 
 ## Key Features
 
